@@ -1,0 +1,27 @@
+[
+  {
+    "displayName": "Page: /About",
+    "relativePath": "/Pages/About.cshtml",
+    "viewEnginePath": "/About"
+  },
+  {
+    "displayName": "Page: /Contact",
+    "viewEnginePath": "/Contact",
+    "relativePath": "/Pages/Contact.cshtml"
+  },
+  {
+    "displayName": "Page: /Error",
+    "viewEnginePath": "/Error",
+    "relativePath": "/Pages/Error.cshtml"
+  },
+  {
+    "displayName": "Page: /Index",
+    "viewEnginePath": "/Index",
+    "relativePath": "/Pages/Index.cshtml"
+  },
+  {
+    "displayName": "Page: /Index",
+    "viewEnginePath": "/Index",
+    "relativePath": "/Pages/Index.cshtml"
+  }
+]

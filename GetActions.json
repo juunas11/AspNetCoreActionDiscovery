@@ -1,0 +1,270 @@
+[
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.OtherContoller.Test (AspNetCoreActionDiscovery)",
+    "controllerName": "OtherContoller",
+    "actionName": "Test",
+    "attributeRouteTemplate": "api/other/test/{id:int}",
+    "httpMethods": "any",
+    "parameters": [
+      {
+        "type": "Int32",
+        "name": "id"
+      }
+    ],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.OtherContoller",
+    "actionMethodName": "Test",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter",
+        "scope": 20
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.Authorization.AllowAnonymousFilter",
+        "scope": 30
+      }
+    ],
+    "constraints": null,
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "Test"
+      },
+      {
+        "key": "controller",
+        "value": "OtherContoller"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.A (AspNetCoreActionDiscovery)",
+    "controllerName": "Test",
+    "actionName": "A",
+    "attributeRouteTemplate": null,
+    "httpMethods": "any",
+    "parameters": [],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "actionMethodName": "A",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "constraints": null,
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "A"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.B (AspNetCoreActionDiscovery)",
+    "controllerName": "Test",
+    "actionName": "B",
+    "attributeRouteTemplate": null,
+    "httpMethods": "GET",
+    "parameters": [],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "actionMethodName": "B",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "constraints": [ { "type": "HttpMethodActionConstraint" } ],
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "B"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.C (AspNetCoreActionDiscovery)",
+    "controllerName": "Test",
+    "actionName": "C",
+    "attributeRouteTemplate": "api/test/c",
+    "httpMethods": "POST",
+    "parameters": [
+      {
+        "type": "Int32",
+        "name": "param"
+      }
+    ],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "actionMethodName": "C",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "constraints": [ { "type": "HttpMethodActionConstraint" } ],
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "C"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.D (AspNetCoreActionDiscovery)",
+    "controllerName": "Test",
+    "actionName": "D",
+    "attributeRouteTemplate": null,
+    "httpMethods": "POST",
+    "parameters": [
+      {
+        "type": "TestModel",
+        "name": "model"
+      }
+    ],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "actionMethodName": "D",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "constraints": [ { "type": "HttpMethodActionConstraint" } ],
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "D"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.GetActions (AspNetCoreActionDiscovery)",
+    "controllerName": "Test",
+    "actionName": "GetActions",
+    "attributeRouteTemplate": null,
+    "httpMethods": "any",
+    "parameters": [],
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "actionMethodName": "GetActions",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "constraints": null,
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "GetActions"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  },
+  {
+    "actionMethodName": "GetPages",
+    "actionName": "GetPages",
+    "attributeRouteTemplate": null,
+    "constraints": null,
+    "controllerClassName": "AspNetCoreActionDiscovery.Controllers.TestController",
+    "controllerName": "Test",
+    "displayName": "AspNetCoreActionDiscovery.Controllers.TestController.GetPages (AspNetCoreActionDiscovery)",
+    "filters": [
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute",
+        "scope": 10
+      },
+      {
+        "className": "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter",
+        "scope": 10
+      }
+    ],
+    "httpMethods": "any",
+    "parameters": [],
+    "routeValues": [
+      {
+        "key": "action",
+        "value": "GetPages"
+      },
+      {
+        "key": "controller",
+        "value": "Test"
+      },
+      {
+        "key": "page",
+        "value": null
+      }
+    ]
+  }
+]
